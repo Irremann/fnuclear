@@ -370,7 +370,7 @@ minetest.register_tool("fnuclear:uranium_hammer", {
 minetest.register_craft({
 	output = "fnuclear:uranium_hammer",
 	recipe = {
-		{"technic:uranium0_ingot", "", ""},
+		{"", "technic:uranium0_ingot", ""},
 		{"", "default:stick", "technic:uranium0_ingot"},
 		{"default:stick", "", ""},
 	}

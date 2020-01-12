@@ -23,7 +23,7 @@ minetest.register_tool("fnuclear:uranium_pick", {
 		full_punch_interval = 0.9,
 		max_drop_level=3,
 		groupcaps={
-			cracky = {times={[1]=2.0, [2]=1.0, [3]=0.50}, uses=30, maxlevel=3},
+			cracky = {times={[1]=2.0, [2]=1.0, [3]=0.50}, uses=100, maxlevel=3},
 		},
 		damage_groups = {fleshy=5},
 	},
@@ -48,7 +48,7 @@ minetest.register_tool("fnuclear:uranium_axe", {
 		full_punch_interval = 0.9,
 		max_drop_level=1,
 		groupcaps={
-			choppy={times={[1]=2.10, [2]=0.90, [3]=0.50}, uses=30, maxlevel=3},
+			choppy={times={[1]=2.10, [2]=0.90, [3]=0.50}, uses=100, maxlevel=3},
 		},
 		damage_groups = {fleshy=7},
 	},
@@ -73,7 +73,7 @@ minetest.register_tool("fnuclear:uranium_shovel", {
 		full_punch_interval = 1.0,
 		max_drop_level=1,
 		groupcaps={
-			crumbly = {times={[1]=1.10, [2]=0.50, [3]=0.30}, uses=30, maxlevel=3},
+			crumbly = {times={[1]=1.10, [2]=0.50, [3]=0.30}, uses=100, maxlevel=3},
 		},
 		damage_groups = {fleshy=4},
 	},
@@ -98,7 +98,7 @@ minetest.register_tool("fnuclear:uranium_sword", {
 		full_punch_interval = 0.7,
 		max_drop_level=1,
 		groupcaps={
-			snappy={times={[1]=1.90, [2]=0.90, [3]=0.30}, uses=40, maxlevel=3},
+			snappy={times={[1]=1.90, [2]=0.90, [3]=0.30}, uses=100, maxlevel=3},
 		},
 		damage_groups = {fleshy=8},
 	},
@@ -123,7 +123,7 @@ minetest.register_tool("fnuclear:uranium_crowbar", {
 		full_punch_interval = 0.9,
 		max_drop_level=1,
 		groupcaps={
-			choppy={times={[1]=2.10, [2]=0.90, [3]=0.50}, uses=50, maxlevel=3},
+			choppy={times={[1]=2.10, [2]=0.90, [3]=0.50}, uses=100, maxlevel=3},
 		},
 		damage_groups = {fleshy=10},
 	},

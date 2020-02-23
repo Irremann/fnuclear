@@ -492,3 +492,19 @@ minetest.register_craft({
 	{"", "default:stick", ""}
   }
 })
+
+minetest.register_node("fnuclear:fake_uranium_ore", {
+	description = "Fake Uranium Ore",
+	tiles = { "default_stone.png^technic_mineral_uranium.png" },
+	paramtype = "light",
+	is_ground_content = true,
+	groups = {cracky = 3},
+	sounds = default.node_sound_stone_defaults(),
+	drop = "fnuclear:fake_uranium_ore",
+})
+
+minetest.register_craft({
+	output = "fnuclear:fake_uranium_ore",
+	type = "shapeless",
+	recipe = {"technic:uranium0_ingot", "default:stone"},
+})
